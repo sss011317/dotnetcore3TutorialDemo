@@ -13,21 +13,21 @@ namespace ContosoCrafts.Website.Components
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\user-50\source\repos\dotnetcoreTurorial\ContosoCrafts\ContosoCrafts.Website\Components\ProductList.razor"
+#line 1 "C:\Users\test\source\repos\dotnetcore3TutorialDemo\ContosoCrafts.Website\Components\ProductList.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\user-50\source\repos\dotnetcoreTurorial\ContosoCrafts\ContosoCrafts.Website\Components\ProductList.razor"
+#line 2 "C:\Users\test\source\repos\dotnetcore3TutorialDemo\ContosoCrafts.Website\Components\ProductList.razor"
 using ContosoCrafts.Website.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\user-50\source\repos\dotnetcoreTurorial\ContosoCrafts\ContosoCrafts.Website\Components\ProductList.razor"
+#line 3 "C:\Users\test\source\repos\dotnetcore3TutorialDemo\ContosoCrafts.Website\Components\ProductList.razor"
 using ContosoCrafts.WebSite.Services;
 
 #line default
@@ -41,7 +41,7 @@ using ContosoCrafts.WebSite.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 74 "C:\Users\user-50\source\repos\dotnetcoreTurorial\ContosoCrafts\ContosoCrafts.Website\Components\ProductList.razor"
+#line 74 "C:\Users\test\source\repos\dotnetcore3TutorialDemo\ContosoCrafts.Website\Components\ProductList.razor"
        
     Product selectedProduct;
     string selectedProductId;

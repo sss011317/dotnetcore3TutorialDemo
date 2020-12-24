@@ -1,0 +1,28 @@
+﻿@page
+@using ContosoCrafts.Website.Components
+@model AccountModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <center>
+        <table border="1">
+            <tr>
+                <td>ID</td>
+                <td>Name</td>
+                <td>Account</td>
+                <td>Pwd\</td>
+            </tr>
+            @foreach(var item in Model.getrecords)
+            {
+                <tr>
+                    <td>@item.ID</td>
+                    <td>@item.Name</td>
+                    <td>@item.Account</td>
+                    <td>@item.Pwd</td>
+                </tr>
+            }
+        </table>
+    </center>
+</div>

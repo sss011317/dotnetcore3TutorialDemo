@@ -12,6 +12,15 @@ namespace ContosoCrafts.Website.Pages
 {
     public class IndexModel : PageModel
     {
+        private readonly ConnectionDBClass _db;
+
+
+
+
+
+
+
+
         private readonly ILogger<IndexModel> _logger;
         public JsonFileProductService ProductService;
         public IEnumerable<Product> Products { get; private set; }

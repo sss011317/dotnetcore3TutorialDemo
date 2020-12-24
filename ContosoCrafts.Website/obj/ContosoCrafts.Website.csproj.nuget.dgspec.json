@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user-50\\source\\repos\\dotnetcoreTurorial\\ContosoCrafts\\ContosoCrafts.Website\\ContosoCrafts.Website.csproj": {}
+    "C:\\Users\\test\\source\\repos\\dotnetcore3TutorialDemo\\ContosoCrafts.Website\\ContosoCrafts.Website.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user-50\\source\\repos\\dotnetcoreTurorial\\ContosoCrafts\\ContosoCrafts.Website\\ContosoCrafts.Website.csproj": {
+    "C:\\Users\\test\\source\\repos\\dotnetcore3TutorialDemo\\ContosoCrafts.Website\\ContosoCrafts.Website.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user-50\\source\\repos\\dotnetcoreTurorial\\ContosoCrafts\\ContosoCrafts.Website\\ContosoCrafts.Website.csproj",
+        "projectUniqueName": "C:\\Users\\test\\source\\repos\\dotnetcore3TutorialDemo\\ContosoCrafts.Website\\ContosoCrafts.Website.csproj",
         "projectName": "ContosoCrafts.Website",
-        "projectPath": "C:\\Users\\user-50\\source\\repos\\dotnetcoreTurorial\\ContosoCrafts\\ContosoCrafts.Website\\ContosoCrafts.Website.csproj",
-        "packagesPath": "C:\\Users\\user-50\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user-50\\source\\repos\\dotnetcoreTurorial\\ContosoCrafts\\ContosoCrafts.Website\\obj\\",
+        "projectPath": "C:\\Users\\test\\source\\repos\\dotnetcore3TutorialDemo\\ContosoCrafts.Website\\ContosoCrafts.Website.csproj",
+        "packagesPath": "C:\\Users\\test\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\test\\source\\repos\\dotnetcore3TutorialDemo\\ContosoCrafts.Website\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user-50\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\test\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,28 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

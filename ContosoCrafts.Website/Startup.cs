@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace ContosoCrafts.Website
 {
@@ -27,6 +28,7 @@ namespace ContosoCrafts.Website
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<ConnectionDBClass>(options => options.UseSqlServer(Configuration.GetConnectionString("Myconnection")));
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddConnections();
